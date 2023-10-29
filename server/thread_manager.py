@@ -1,7 +1,7 @@
 
 import threading
 import queue
-from terminal import logger
+from util.terminal import logger
 
 log = logger('manager')
 

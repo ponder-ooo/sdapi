@@ -4,10 +4,10 @@ import json
 import threading
 import queue
 from websockets.server import serve
-from sd import main as sd_main
-from thread_manager import launch, thread_manager
+from sd.sd import main as sd_main
+from .thread_manager import launch, thread_manager
 import concurrent.futures
-from terminal import logger
+from util.terminal import logger
 
 log = logger('server')
 

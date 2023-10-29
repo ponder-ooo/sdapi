@@ -1,6 +1,6 @@
 
 from queue import Empty
-from terminal import logger
+from util.terminal import logger
 
 log = logger('sd')
 

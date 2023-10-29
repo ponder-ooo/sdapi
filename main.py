@@ -1,8 +1,8 @@
 
 import asyncio
 from websockets.server import serve
-from server import setup
-from terminal import logger
+from server.server import setup
+from util.terminal import logger
 
 log = logger('main')
 
